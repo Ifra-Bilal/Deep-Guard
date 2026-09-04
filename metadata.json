@@ -1,0 +1,10 @@
+{
+  "name": "Remix DeepGuard",
+  "description": "Enterprise-grade AI Image and Deepfake Detection platform with real-time micro-artifact analysis, percentage confidence verdicts, and forensic audit logs.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

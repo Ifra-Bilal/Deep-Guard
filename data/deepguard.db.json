@@ -1,0 +1,268 @@
+{
+  "users": [
+    {
+      "id": "user-alex-demo-01",
+      "name": "Alex Morgan",
+      "email": "alex.morgan@deepguard.ai",
+      "password_hash": "$2b$10$3bjXrrL3l1yYIKYGj/T6tOSzlanOsy0fGI1EDyPO9kNzWrFL9UR2C",
+      "email_verified": true,
+      "created_at": 1787893345347
+    },
+    {
+      "id": "user-sarah-demo-02",
+      "name": "Sarah Connor",
+      "email": "sarah.connor@deepguard.ai",
+      "password_hash": "$2b$10$3bjXrrL3l1yYIKYGj/T6tOSzlanOsy0fGI1EDyPO9kNzWrFL9UR2C",
+      "email_verified": true,
+      "created_at": 1788238945347
+    },
+    {
+      "id": "user-1788498241044-2wqzu",
+      "name": "Ifra Bilal",
+      "email": "ifrabilal003@gmail.com",
+      "password_hash": "$2b$10$Kw27mleVycuakYL.abm1d.QynjDERllFODgtBdRSZrF1TgGCxumOe",
+      "email_verified": true,
+      "verification_token": null,
+      "verification_token_expires": null,
+      "created_at": 1788498241044
+    }
+  ],
+  "history": [
+    {
+      "id": "scan-1788499433532-iulg7",
+      "user_id": "user-alex-demo-01",
+      "image": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=900&q=80",
+      "fileName": "authenticated_lion_scan.jpg",
+      "fileType": "image",
+      "result": "REAL_NATURAL",
+      "ai_probability": 3,
+      "real_probability": 97,
+      "confidence": 97.5,
+      "summary": "This is a genuine photograph of a male lion walking on grass, showing natural fur detail, authentic optical depth of field, and accurate anatomical structure.",
+      "indicators": [
+        {
+          "id": "ind-01",
+          "name": "Natural Mane and Coat Texture",
+          "description": "Individual fur fibers and hair groupings across the mane and body show organic variation without synthetic smoothing.",
+          "severity": "Normal",
+          "iconType": "animal",
+          "locationBox": [
+            53,
+            126,
+            599,
+            495
+          ]
+        },
+        {
+          "id": "ind-02",
+          "name": "Accurate Feline Anatomy",
+          "description": "Facial symmetry, muzzle geometry, whisker follicles, and muscular limb structure accurately match genuine feline biology.",
+          "severity": "Normal",
+          "iconType": "animal",
+          "locationBox": [
+            257,
+            142,
+            532,
+            283
+          ]
+        },
+        {
+          "id": "ind-03",
+          "name": "Organic Grass Occlusion",
+          "description": "Grass blades naturally overlap the paws and lower legs with sharp physical interaction and realistic shadowing.",
+          "severity": "Normal",
+          "iconType": "nature",
+          "locationBox": [
+            549,
+            256,
+            792,
+            452
+          ]
+        },
+        {
+          "id": "ind-04",
+          "name": "Authentic Tree Bark Detail",
+          "description": "The tree trunk displays realistic vertical ridges, natural wood grooves, and consistent lighting consistent with the scene.",
+          "severity": "Normal",
+          "iconType": "nature",
+          "locationBox": [
+            0,
+            804,
+            692,
+            997
+          ]
+        }
+      ],
+      "analysis_details": {
+        "overallResult": "Authentic Wildlife Photograph",
+        "aiProbabilityText": "3%",
+        "realProbabilityText": "97%",
+        "confidenceLevelText": "Very High (97.5%)",
+        "detectedFeatures": [
+          "Natural variation and fine fiber separation in the lion's mane",
+          "Consistent diffuse daylight and shadow direction across the lion's body and the ground",
+          "Real optical focus falloff from the sharp foreground grass to the soft background foliage",
+          "Realistic tree bark texture with no geometric melting or procedural repetition",
+          "Anatomically correct paw placement and organic occlusion by blades of grass"
+        ],
+        "imageAnalysis": "Forensic evaluation of the image confirms standard optical camera characteristics. The lion's fur strands, whisker follicles, and muscular contours are physically accurate and free of diffusion artifacts. The interaction between the subject's feet and the blades of grass exhibits true physical depth rather than synthetic blending.",
+        "finalExplanation": "The image presents authentic camera optical properties, natural depth of field, and physiologically sound wildlife anatomy. There are no indications of AI generation or digital manipulation."
+      },
+      "subject_category": "Animal / Wildlife",
+      "identified_subject": "Adult male lion walking across green grass beside a tree trunk",
+      "relevant_features_checked": [
+        "Lion mane and fur micro-texture",
+        "Feline facial features and whisker anatomy",
+        "Limb geometry and paw contact with grass",
+        "Tree bark surface texture",
+        "Optical depth of field and natural lighting"
+      ],
+      "processing_time_ms": 30596,
+      "created_at": 1788499433532
+    },
+    {
+      "id": "scan-sample-alex-01",
+      "user_id": "user-alex-demo-01",
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=80",
+      "fileName": "ai_portrait_face_01.png",
+      "fileSize": 1845200,
+      "fileType": "image",
+      "result": "AI_GENERATED",
+      "ai_probability": 96,
+      "real_probability": 4,
+      "confidence": 96,
+      "summary": "DeepGuard identified visual characteristics of an AI-generated portrait. Key facial smoothness, hair patterns, and lighting details show clear signs of AI creation.",
+      "subject_category": "Person / Portrait",
+      "identified_subject": "Photorealistic AI portrait of a woman",
+      "relevant_features_checked": [
+        "Facial structure",
+        "Skin micro-pores",
+        "Hair boundaries",
+        "Lighting consistency"
+      ],
+      "indicators": [
+        {
+          "id": "ind-1",
+          "name": "Unnatural Facial Details",
+          "description": "Facial features look unusually smooth and computer-generated rather than like a natural photo.",
+          "severity": "High",
+          "iconType": "face",
+          "locationBox": [
+            280,
+            320,
+            680,
+            680
+          ]
+        },
+        {
+          "id": "ind-2",
+          "name": "AI-Like Hair & Texture Patterns",
+          "description": "The hair strands and surface details have a digital painted texture commonly found in AI diffusion images.",
+          "severity": "High",
+          "iconType": "texture",
+          "locationBox": [
+            350,
+            380,
+            560,
+            620
+          ]
+        }
+      ],
+      "analysis_details": {
+        "overallResult": "AI-Generated Image",
+        "aiProbabilityText": "AI Probability: 96%",
+        "realProbabilityText": "Real Probability: 4%",
+        "confidenceLevelText": "High Confidence (96%)",
+        "detectedFeatures": [
+          "Unnatural facial details with computer smoothing",
+          "AI-like hair patterns with digital brushwork",
+          "Skin texture lacks true camera sensor micro-pores"
+        ],
+        "imageAnalysis": "When inspecting the image closely, the facial features, skin texture, and hair patterns show computer-generated artistic rendering rather than real camera photography.",
+        "finalExplanation": "High chance that this image was made by AI. We recommend treating this media as AI-generated."
+      },
+      "processing_time_ms": 380,
+      "created_at": 1788495445347
+    },
+    {
+      "id": "scan-sample-alex-02",
+      "user_id": "user-alex-demo-01",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=900&q=80",
+      "fileName": "camera_capture_street.jpg",
+      "fileSize": 3410000,
+      "fileType": "image",
+      "result": "REAL_NATURAL",
+      "ai_probability": 3,
+      "real_probability": 97,
+      "confidence": 97,
+      "summary": "DeepGuard verified this media as an authentic real-world photograph. Natural camera sensor noise, authentic texture, and consistent lighting were confirmed.",
+      "subject_category": "Person / Portrait",
+      "identified_subject": "Real camera portrait with natural street lighting",
+      "relevant_features_checked": [
+        "Camera sensor grain",
+        "Skin micro-pores",
+        "Natural eye catchlights"
+      ],
+      "indicators": [
+        {
+          "id": "ind-3",
+          "name": "Natural Camera Sensor Noise",
+          "description": "Natural optical camera grain is present evenly across dark and light areas of the photo.",
+          "severity": "Normal",
+          "iconType": "noise",
+          "locationBox": null
+        }
+      ],
+      "analysis_details": {
+        "overallResult": "Real / Natural Image",
+        "aiProbabilityText": "AI Probability: 3%",
+        "realProbabilityText": "Real Probability: 97%",
+        "confidenceLevelText": "High Confidence (97%)",
+        "detectedFeatures": [
+          "Natural camera optical grain and sensor noise",
+          "Real skin pores and organic facial textures",
+          "Consistent real-world lighting and shadow direction"
+        ],
+        "imageAnalysis": "The image displays authentic physical characteristics of a real camera, with natural optical focus and genuine sensor noise.",
+        "finalExplanation": "This image appears authentic and shows no signs of AI generation or face swapping."
+      },
+      "processing_time_ms": 410,
+      "created_at": 1788487345347
+    },
+    {
+      "id": "scan-sample-sarah-01",
+      "user_id": "user-sarah-demo-02",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80",
+      "fileName": "sarah_private_nature_investigation.png",
+      "fileSize": 2890000,
+      "fileType": "image",
+      "result": "REAL_NATURAL",
+      "ai_probability": 2,
+      "real_probability": 98,
+      "confidence": 98.6,
+      "summary": "DeepGuard verified this landscape as an authentic photograph with natural water reflection physics.",
+      "subject_category": "Landscape / Nature",
+      "identified_subject": "Alpine lake landscape with reflection",
+      "relevant_features_checked": [
+        "Water physics",
+        "Atmospheric perspective",
+        "Natural foliage"
+      ],
+      "indicators": [],
+      "analysis_details": {
+        "overallResult": "Real Landscape Photograph",
+        "aiProbabilityText": "2% AI probability",
+        "realProbabilityText": "98% real authentic photograph",
+        "confidenceLevelText": "Very High Confidence (98.6%)",
+        "detectedFeatures": [
+          "Natural water ripple physics",
+          "Authentic atmospheric depth"
+        ],
+        "imageAnalysis": "Natural optical camera sensor noise and physically accurate light scattering.",
+        "finalExplanation": "This landscape photograph is authentic and unaltered."
+      },
+      "processing_time_ms": 360,
+      "created_at": 1788411745347
+    }
+  ]
+}
